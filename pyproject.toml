@@ -1,0 +1,33 @@
+[project]
+name = "zonevision"
+version = "0.1.0"
+description = "Automated inhibition-zone detection and measurement for AST plate photos."
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "httpx>=0.28.1",
+  "matplotlib>=3.9.0",
+  "numpy>=2.1.0",
+  "opencv-python>=4.10.0",
+  "pandas>=2.2.0",
+  "pillow>=11.0.0",
+  "pycocotools>=2.0.8",
+  "pyyaml>=6.0.2",
+  "rfdetr[train]>=1.6.0",
+  "scikit-image>=0.24.0",
+  "supervision>=0.25.0",
+  "timm>=1.0.15",
+  "torch>=2.4.0",
+  "ultralytics>=8.3.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+package = true
+
+[[tool.uv.index]]
+url = "https://pypi.org/simple"
+default = true

@@ -1,0 +1,116 @@
+{
+  "n_images": 11,
+  "mean_consistency_score": 4.0,
+  "verdict_counts": {
+    "minor_issues": 9,
+    "consistent": 2
+  },
+  "n_images_with_failures": 9,
+  "failure_details": [
+    {
+      "image": "20201010_hal_alpha_16_19_12_color_plate.jpg",
+      "fn_causes": [
+        "位于图像物理边缘",
+        "面积较大可能触发尺寸上限过滤",
+        "边缘局部光照梯度变化影响"
+      ],
+      "fp_causes": [],
+      "systemic": false
+    },
+    {
+      "image": "20201010_hal_alpha_21_22_24_color_plate.jpg",
+      "fn_causes": [
+        "抑菌圈对比度极低，与周围培养基灰度差异微小",
+        "边界模糊且缺乏明显的高亮光环梯度特征",
+        "受局部光照不均或培养基纹理干扰导致信号被淹没"
+      ],
+      "fp_causes": [
+        "算法检测结果精准，未将气泡、反光点或培养基瑕疵误判为抑菌圈"
+      ],
+      "systemic": false
+    },
+    {
+      "image": "20201010_hal_alpha_26_28_15_color_plate.jpg",
+      "fn_causes": [
+        "位于图像边缘区域，受光照不均或景深影响",
+        "抑菌圈边界对比度较低，特征响应不足",
+        "形态不规则或与邻近背景纹理相似"
+      ],
+      "fp_causes": [
+        "算法分类阈值严谨",
+        "有效区分了培养基颗粒、气泡与真实抑菌圈"
+      ],
+      "systemic": false
+    },
+    {
+      "image": "20201010_hal_alpha_2_3_14_color_plate.jpg",
+      "fn_causes": [
+        "位于图像右下角边缘区域",
+        "目标面积过大或超出预设尺寸范围",
+        "边缘光照梯度影响对比度计算"
+      ],
+      "fp_causes": [
+        "无"
+      ],
+      "systemic": false
+    },
+    {
+      "image": "20201010_hal_alpha_4_5_color_plate.jpg",
+      "fn_causes": [
+        "抑菌圈对比度偏低，与背景培养基灰度差异小",
+        "边界极度模糊，缺乏明显的梯度变化",
+        "受局部光照不均影响，微弱信号被淹没"
+      ],
+      "fp_causes": [
+        "算法置信度阈值设置合理",
+        "成功排除了培养基颗粒感及反光点的干扰"
+      ],
+      "systemic": false
+    },
+    {
+      "image": "20201010_hal_alpha_6_9_25_color_plate.jpg",
+      "fn_causes": [
+        "位于平板左侧边缘的超大面积且形状不规则抑菌圈",
+        "位于右下角边缘的低对比度模糊抑菌圈"
+      ],
+      "fp_causes": [
+        "无"
+      ],
+      "systemic": false
+    },
+    {
+      "image": "20201011_hal_alpha_13_10_11_color_plate.jpg",
+      "fn_causes": [
+        "抑菌圈直径过小或抑制效果弱，导致灰度对比度低于检测阈值",
+        "局部背景光照不均（如平板右侧及底部边缘较亮），掩盖了微弱的抑菌信号",
+        "边界模糊，与周围培养基纹理融合，无法形成闭合的梯度环"
+      ],
+      "fp_causes": [],
+      "systemic": false
+    },
+    {
+      "image": "20201110_halA_single_transformant_activity_color_plate.jpg",
+      "fn_causes": [
+        "无明显漏检，所有显著抑菌圈均被成功捕捉"
+      ],
+      "fp_causes": [
+        "培养基背景纹理噪点被误判为圆形结构",
+        "极微弱的非特异性抑制或光影变化",
+        "部分区域对比度较低导致阈值判定过宽"
+      ],
+      "systemic": false
+    },
+    {
+      "image": "undated_halA_1_2_library_color_plate.jpg",
+      "fn_causes": [
+        "抑菌圈直径过小",
+        "抑菌效果弱导致边界对比度低",
+        "受邻近大型融合抑菌圈的光影干扰"
+      ],
+      "fp_causes": [
+        "算法抗干扰能力强，有效排除了左下角强反光区及培养基纹理"
+      ],
+      "systemic": false
+    }
+  ]
+}

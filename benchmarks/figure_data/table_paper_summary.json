@@ -1,0 +1,19 @@
+{
+  "method": "RF-DETR-Seg-Small + 96-Well Plate Calibration",
+  "dataset": "11 color plate photographs, 233 manual annotations",
+  "detection": {
+    "precision": 0.9731,
+    "recall": 0.9313,
+    "f1": 0.9518,
+    "mean_iou": 0.8961,
+    "n_zones": 217
+  },
+  "measurement": {
+    "mean_abs_error_mm": 0.234,
+    "max_abs_error_mm": 1.542,
+    "std_error_mm": 0.335,
+    "relative_error_pct": 3.08,
+    "pearson_r": 0.9727,
+    "n_pairs": 217
+  }
+}

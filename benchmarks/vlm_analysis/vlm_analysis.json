@@ -1,0 +1,394 @@
+{
+  "consistency_analysis": [
+    {
+      "image_name": "20200921_halA_21_22_24_color_plate.jpg",
+      "boundary_quality": "good",
+      "position_agreement": "good",
+      "missed_zones_estimate": 0,
+      "over_segmented_estimate": 0,
+      "consistency_score": 5,
+      "overall_verdict": "consistent",
+      "detail": "算法准确识别了全部8个抑菌圈，分割边界与实际边缘高度吻合，无漏检或过分割现象。",
+      "_image": "20200921_halA_21_22_24_color_plate.jpg",
+      "_gt_count": 8,
+      "_pred_count": 8
+    },
+    {
+      "image_name": "20200921_halA_26_28_15_color_plate.jpg",
+      "boundary_quality": "good",
+      "position_agreement": "good",
+      "missed_zones_estimate": 0,
+      "over_segmented_estimate": 0,
+      "consistency_score": 5,
+      "overall_verdict": "consistent",
+      "detail": "算法精准检测出全部17个抑菌圈，分割位置与实际可见区域完全对应，边界贴合度高，无漏检或误检。",
+      "_image": "20200921_halA_26_28_15_color_plate.jpg",
+      "_gt_count": 17,
+      "_pred_count": 17
+    },
+    {
+      "image_name": "20201010_hal_alpha_16_19_12_color_plate.jpg",
+      "boundary_quality": "good",
+      "position_agreement": "good",
+      "missed_zones_estimate": 1,
+      "over_segmented_estimate": 0,
+      "consistency_score": 4,
+      "overall_verdict": "minor_issues",
+      "detail": "算法分割边界总体贴合度较高，位置定位准确，但存在一处明显漏检（右下角较大的抑菌圈未检出），导致检测总数少于人工标注。",
+      "_image": "20201010_hal_alpha_16_19_12_color_plate.jpg",
+      "_gt_count": 17,
+      "_pred_count": 16
+    },
+    {
+      "image_name": "20201010_hal_alpha_21_22_24_color_plate.jpg",
+      "boundary_quality": "good",
+      "position_agreement": "good",
+      "missed_zones_estimate": 2,
+      "over_segmented_estimate": 0,
+      "consistency_score": 3,
+      "overall_verdict": "minor_issues",
+      "detail": "算法准确识别并分割了5个主要抑菌圈，边界贴合度较好，但存在2个明显漏检（位于平板左侧及底部边缘的弱抑菌圈），整体一致性中等。",
+      "_image": "20201010_hal_alpha_21_22_24_color_plate.jpg",
+      "_gt_count": 7,
+      "_pred_count": 5
+    },
+    {
+      "image_name": "20201010_hal_alpha_26_28_15_color_plate.jpg",
+      "boundary_quality": "good",
+      "position_agreement": "good",
+      "missed_zones_estimate": 1,
+      "over_segmented_estimate": 0,
+      "consistency_score": 4,
+      "overall_verdict": "minor_issues",
+      "detail": "算法检测结果与人工标注高度一致，分割边界清晰且贴合实际边缘，仅存在个别微量漏检。",
+      "_image": "20201010_hal_alpha_26_28_15_color_plate.jpg",
+      "_gt_count": 45,
+      "_pred_count": 44
+    },
+    {
+      "image_name": "20201010_hal_alpha_2_3_14_color_plate.jpg",
+      "boundary_quality": "good",
+      "position_agreement": "good",
+      "missed_zones_estimate": 1,
+      "over_segmented_estimate": 0,
+      "consistency_score": 4,
+      "overall_verdict": "minor_issues",
+      "detail": "算法成功检测了大部分抑菌圈且边界贴合度较好，但明显漏检了右下角的一个大型抑菌圈。",
+      "_image": "20201010_hal_alpha_2_3_14_color_plate.jpg",
+      "_gt_count": 12,
+      "_pred_count": 11
+    },
+    {
+      "image_name": "20201010_hal_alpha_4_5_color_plate.jpg",
+      "boundary_quality": "good",
+      "position_agreement": "good",
+      "missed_zones_estimate": 1,
+      "over_segmented_estimate": 0,
+      "consistency_score": 4,
+      "overall_verdict": "minor_issues",
+      "detail": "算法分割精度较高，边界贴合度好，但存在1个漏检（人工标注17个而算法仅检出16个），可能是由于个别抑菌圈对比度较低未被识别。",
+      "_image": "20201010_hal_alpha_4_5_color_plate.jpg",
+      "_gt_count": 17,
+      "_pred_count": 16
+    },
+    {
+      "image_name": "20201010_hal_alpha_6_9_25_color_plate.jpg",
+      "boundary_quality": "good",
+      "position_agreement": "good",
+      "missed_zones_estimate": 2,
+      "over_segmented_estimate": 0,
+      "consistency_score": 4,
+      "overall_verdict": "minor_issues",
+      "detail": "算法成功检测了大部分抑菌圈且边界贴合度较好，但明显遗漏了左侧边缘的大面积抑菌圈及右下角的抑菌圈。",
+      "_image": "20201010_hal_alpha_6_9_25_color_plate.jpg",
+      "_gt_count": 14,
+      "_pred_count": 12
+    },
+    {
+      "image_name": "20201011_hal_alpha_13_10_11_color_plate.jpg",
+      "boundary_quality": "moderate",
+      "position_agreement": "good",
+      "missed_zones_estimate": 3,
+      "over_segmented_estimate": 0,
+      "consistency_score": 3,
+      "overall_verdict": "minor_issues",
+      "detail": "算法准确检测了大部分明显的抑菌圈，位置对应良好，但存在约3个微弱区域的漏检，且部分边界略有松弛。",
+      "_image": "20201011_hal_alpha_13_10_11_color_plate.jpg",
+      "_gt_count": 22,
+      "_pred_count": 19
+    },
+    {
+      "image_name": "20201110_halA_single_transformant_activity_color_plate.jpg",
+      "boundary_quality": "good",
+      "position_agreement": "good",
+      "missed_zones_estimate": 0,
+      "over_segmented_estimate": 2,
+      "consistency_score": 4,
+      "overall_verdict": "minor_issues",
+      "detail": "算法分割位置准确，边界贴合度高，但相比人工标注多检出2个微弱抑菌圈，属于轻微过分割。",
+      "_image": "20201110_halA_single_transformant_activity_color_plate.jpg",
+      "_gt_count": 20,
+      "_pred_count": 22
+    },
+    {
+      "image_name": "undated_halA_1_2_library_color_plate.jpg",
+      "boundary_quality": "good",
+      "position_agreement": "good",
+      "missed_zones_estimate": 1,
+      "over_segmented_estimate": 0,
+      "consistency_score": 4,
+      "overall_verdict": "minor_issues",
+      "detail": "算法检测结果与人工标注高度一致，边界定位精准且能较好处理融合区域，仅存在个别微弱抑菌圈的漏检。",
+      "_image": "undated_halA_1_2_library_color_plate.jpg",
+      "_gt_count": 54,
+      "_pred_count": 53
+    }
+  ],
+  "failure_analysis": [
+    {
+      "image_name": "20201010_hal_alpha_16_19_12_color_plate.jpg",
+      "fn_analysis": {
+        "estimated_count": 1,
+        "likely_causes": [
+          "位于图像物理边缘",
+          "面积较大可能触发尺寸上限过滤",
+          "边缘局部光照梯度变化影响"
+        ],
+        "fn_severity": "moderate"
+      },
+      "fp_analysis": {
+        "estimated_count": 0,
+        "likely_causes": [],
+        "fp_severity": "minor"
+      },
+      "systemic_issue": false,
+      "recommendation": "建议优化图像边缘的ROI提取逻辑，防止在去噪或裁剪过程中丢失边缘有效目标。",
+      "detail": "通过对比原图与算法叠加图，发现漏检的1个抑菌圈位于图像右下角（第8行第10列位置）。该抑菌圈特征非常明显：直径较大、呈规则圆形、边界清晰且与背景对比度极高。漏检原因极大概率是由于其紧贴图像边框，在算法预处理（如边缘Padding不足或边缘噪声剔除）时被误删。值得注意的是，图像左侧存在多个抑菌圈粘连或融合成片的情况，算法成功将其拆分检出，说明其对复杂形态有较好的处理能力。本次检测无误检（FP=0），整体质量较高，漏检属于可修正的边缘情况。",
+      "_image": "20201010_hal_alpha_16_19_12_color_plate.jpg",
+      "_gt_count": 17,
+      "_pred_count": 16,
+      "_fp": 0,
+      "_fn": 1
+    },
+    {
+      "image_name": "20201010_hal_alpha_21_22_24_color_plate.jpg",
+      "fn_analysis": {
+        "estimated_count": 2,
+        "likely_causes": [
+          "抑菌圈对比度极低，与周围培养基灰度差异微小",
+          "边界模糊且缺乏明显的高亮光环梯度特征",
+          "受局部光照不均或培养基纹理干扰导致信号被淹没"
+        ],
+        "fn_severity": "moderate"
+      },
+      "fp_analysis": {
+        "estimated_count": 0,
+        "likely_causes": [
+          "算法检测结果精准，未将气泡、反光点或培养基瑕疵误判为抑菌圈"
+        ],
+        "fp_severity": "minor"
+      },
+      "systemic_issue": false,
+      "recommendation": "建议引入自适应阈值分割或多尺度特征融合技术，重点提升对低对比度、弱边界抑菌圈的鲁棒性。",
+      "detail": "经详细比对，算法检出的5个抑菌圈均为图像中特征较明显的目标。漏检的2个抑菌圈（推测位于第2行第5列及其他低对比度区域）具有显著的‘弱信号’特征：其直径相对较小且透明度高，导致圈内外像素值差异接近噪声水平。这种失败属于典型的边缘情况（Edge Case），而非系统性崩溃。虽然误检率为0表明算法特异性极佳，但在药敏实验中，漏检微弱抑菌圈可能导致假阴性判断，因此建议后续通过数据增强增加弱样本权重，或采用深度学习模型替代传统图像处理算法以提升召回率。",
+      "_image": "20201010_hal_alpha_21_22_24_color_plate.jpg",
+      "_gt_count": 7,
+      "_pred_count": 5,
+      "_fp": 0,
+      "_fn": 2
+    },
+    {
+      "image_name": "20201010_hal_alpha_26_28_15_color_plate.jpg",
+      "fn_analysis": {
+        "estimated_count": 1,
+        "likely_causes": [
+          "位于图像边缘区域，受光照不均或景深影响",
+          "抑菌圈边界对比度较低，特征响应不足",
+          "形态不规则或与邻近背景纹理相似"
+        ],
+        "fn_severity": "minor"
+      },
+      "fp_analysis": {
+        "estimated_count": 0,
+        "likely_causes": [
+          "算法分类阈值严谨",
+          "有效区分了培养基颗粒、气泡与真实抑菌圈"
+        ],
+        "fp_severity": "minor"
+      },
+      "systemic_issue": false,
+      "recommendation": "建议引入注意力机制（Attention Mechanism）加强对图像边缘区域的特征学习，或针对低对比度样本进行针对性数据增强。",
+      "detail": "通过对比原始平板图与算法叠加图，发现漏检的1个抑菌圈极有可能位于平板右下方边缘位置（例如第6行第11列附近）。该位置虽然肉眼可见明显的暗色抑制环，但由于其紧贴图像边缘，可能存在局部光照衰减或镜头畸变，导致算法在特征提取时置信度未达到判定阈值。此外，该位置的抑菌圈颜色深度相对较浅，与灰色培养基背景的对比度低于中心区域的典型样本。整体而言，算法在44个检出目标上表现高度准确，无误检（FP=0），说明模型对典型特征的鲁棒性极佳。此次漏检属于典型的边缘情况（Edge Case），并非算法逻辑的系统性崩溃，在实际应用中属于可接受范围内的微小偏差。",
+      "_image": "20201010_hal_alpha_26_28_15_color_plate.jpg",
+      "_gt_count": 45,
+      "_pred_count": 44,
+      "_fp": 0,
+      "_fn": 1
+    },
+    {
+      "image_name": "20201010_hal_alpha_2_3_14_color_plate.jpg",
+      "fn_analysis": {
+        "estimated_count": 1,
+        "likely_causes": [
+          "位于图像右下角边缘区域",
+          "目标面积过大或超出预设尺寸范围",
+          "边缘光照梯度影响对比度计算"
+        ],
+        "fn_severity": "moderate"
+      },
+      "fp_analysis": {
+        "estimated_count": 0,
+        "likely_causes": [
+          "无"
+        ],
+        "fp_severity": "minor"
+      },
+      "systemic_issue": false,
+      "recommendation": "建议增强图像边缘区域的Padding处理或调整滑动窗口策略，防止边缘大目标被截断漏检。",
+      "detail": "经过详细比对，算法漏检了位于图像右下角（第8行第11列）的一个显著抑菌圈。该漏检目标特征为：直径较大、颜色深沉且边界相对清晰。失败原因高度疑似为‘边缘截断效应’，即由于该目标过于贴近图像物理边界，在算法进行归一化或窗口化推理时被部分排除在有效检测区外，或者因其异常大的尺寸触发了非极大值抑制（NMS）或尺寸过滤器的阈值限制。本次检测不存在误检（FP=0），说明算法对非目标干扰（如培养基纹理、反光）具有较好的抗性。此案例属于典型的边缘Corner Case，虽不构成普遍性系统错误，但在高通量筛选中应引起重视以避免数据丢失。",
+      "_image": "20201010_hal_alpha_2_3_14_color_plate.jpg",
+      "_gt_count": 12,
+      "_pred_count": 11,
+      "_fp": 0,
+      "_fn": 1
+    },
+    {
+      "image_name": "20201010_hal_alpha_4_5_color_plate.jpg",
+      "fn_analysis": {
+        "estimated_count": 1,
+        "likely_causes": [
+          "抑菌圈对比度偏低，与背景培养基灰度差异小",
+          "边界极度模糊，缺乏明显的梯度变化",
+          "受局部光照不均影响，微弱信号被淹没"
+        ],
+        "fn_severity": "minor"
+      },
+      "fp_analysis": {
+        "estimated_count": 0,
+        "likely_causes": [
+          "算法置信度阈值设置合理",
+          "成功排除了培养基颗粒感及反光点的干扰"
+        ],
+        "fn_severity": "minor"
+      },
+      "systemic_issue": false,
+      "recommendation": "建议引入自适应局部对比度增强或略微降低边缘检测的梯度阈值，以提高对微弱抑菌圈的敏感度。",
+      "detail": "经详细比对，算法在本次检测中表现出较高的准确性，误检率为0说明其抗干扰能力较强。漏检的1个抑菌圈大概率属于‘弱阳性’样本，即肉眼隐约可见但数字化特征不明显的目标。这类失败通常发生在抑菌效果不显著的孔位，其特征是直径无明显扩大或透明度改善极微。这不属于算法逻辑错误，而是灵敏度校准的权衡问题，属于可接受的边缘情况。",
+      "_image": "20201010_hal_alpha_4_5_color_plate.jpg",
+      "_gt_count": 17,
+      "_pred_count": 16,
+      "_fp": 0,
+      "_fn": 1
+    },
+    {
+      "image_name": "20201010_hal_alpha_6_9_25_color_plate.jpg",
+      "fn_analysis": {
+        "estimated_count": 2,
+        "likely_causes": [
+          "位于平板左侧边缘的超大面积且形状不规则抑菌圈",
+          "位于右下角边缘的低对比度模糊抑菌圈"
+        ],
+        "fn_severity": "moderate"
+      },
+      "fp_analysis": {
+        "estimated_count": 0,
+        "likely_causes": [
+          "无"
+        ],
+        "fp_severity": "minor"
+      },
+      "systemic_issue": false,
+      "recommendation": "建议扩充训练集中关于超大尺寸、不规则形态以及位于平板边缘位置的样本，并适当降低边缘区域的置信度阈值。",
+      "detail": "经详细比对，算法漏检的两个抑菌圈具有显著的边缘特征：第一个位于图像左侧中间位置（约第4行第1列），该抑菌圈面积异常巨大且边界呈现不规则扩散/融合状态，可能因超出算法预设的尺寸范围或形态学约束而被过滤；第二个位于右下角边缘（约第8行第12列），由于处于成像视野边缘且受光照衰减影响，其与背景的灰度对比度极低，导致算法难以捕捉。这两个失败案例均属于典型的‘长尾’分布边缘情况，而非系统性检测失效，说明算法在处理标准中心区域的高质量抑菌圈时表现稳健，但对极端物理特征的鲁棒性有待提升。",
+      "_image": "20201010_hal_alpha_6_9_25_color_plate.jpg",
+      "_gt_count": 14,
+      "_pred_count": 12,
+      "_fp": 0,
+      "_fn": 2
+    },
+    {
+      "image_name": "20201011_hal_alpha_13_10_11_color_plate.jpg",
+      "fn_analysis": {
+        "estimated_count": 3,
+        "likely_causes": [
+          "抑菌圈直径过小或抑制效果弱，导致灰度对比度低于检测阈值",
+          "局部背景光照不均（如平板右侧及底部边缘较亮），掩盖了微弱的抑菌信号",
+          "边界模糊，与周围培养基纹理融合，无法形成闭合的梯度环"
+        ],
+        "fn_severity": "moderate"
+      },
+      "fp_analysis": {
+        "estimated_count": 0,
+        "likely_causes": [],
+        "fp_severity": "minor"
+      },
+      "systemic_issue": false,
+      "recommendation": "建议引入自适应局部阈值分割或多尺度特征提取，并适当降低弱阳性样本的置信度判定门槛。",
+      "detail": "通过对比原图与算法叠加图，发现漏检的3个抑菌圈主要分布在抑菌效果较弱的区域（如第一行第九列、第六行第七列等位置）。这些位置的共同特征是：抑菌圈半径极小，且其亮度与周围培养基的差异（对比度）显著低于其他已检出的强阳性圈。此外，平板拍摄时光照存在轻微的不均匀性（四周略亮），可能导致算法在全局阈值处理时忽略了这些处于临界状态的微弱信号。本次检测无误检，说明算法在特异性方面表现良好，但在灵敏度上针对‘弱阳性’边缘案例仍有优化空间。这属于典型的边缘情况而非系统性缺陷，可通过调整灵敏度参数或增加针对微小目标的训练样本解决。",
+      "_image": "20201011_hal_alpha_13_10_11_color_plate.jpg",
+      "_gt_count": 22,
+      "_pred_count": 19,
+      "_fp": 0,
+      "_fn": 3
+    },
+    {
+      "image_name": "20201110_halA_single_transformant_activity_color_plate.jpg",
+      "fn_analysis": {
+        "estimated_count": 0,
+        "likely_causes": [
+          "无明显漏检，所有显著抑菌圈均被成功捕捉"
+        ],
+        "fn_severity": "minor"
+      },
+      "fp_analysis": {
+        "estimated_count": 2,
+        "likely_causes": [
+          "培养基背景纹理噪点被误判为圆形结构",
+          "极微弱的非特异性抑制或光影变化",
+          "部分区域对比度较低导致阈值判定过宽"
+        ],
+        "fp_severity": "minor"
+      },
+      "systemic_issue": false,
+      "recommendation": "建议适当提高最小检测面积阈值或增强对背景纹理的鲁棒性，以过滤掉由培养基颗粒引起的微小误检。",
+      "detail": "通过对比原图与算法叠加图可知，算法表现出极高的灵敏度（Recall），成功检测出了所有肉眼清晰可见的抑菌圈，漏检率（FN）接近于零。存在的2个误检（FP）主要集中在图像中部偏右的区域（如第4行第6列及第9列附近），这些位置的特征是抑菌圈极小且边界模糊，与周围带有颗粒感的培养基背景对比度极低。这类误差属于典型的边缘情况（Edge Case），而非系统性缺陷。在实际高通量筛选中，这种‘宁错杀不放过’的策略通常是可以接受的，但可通过后处理逻辑（如限制最小直径）进一步优化精度。",
+      "_image": "20201110_halA_single_transformant_activity_color_plate.jpg",
+      "_gt_count": 20,
+      "_pred_count": 22,
+      "_fp": 2,
+      "_fn": 0
+    },
+    {
+      "image_name": "undated_halA_1_2_library_color_plate.jpg",
+      "fn_analysis": {
+        "estimated_count": 1,
+        "likely_causes": [
+          "抑菌圈直径过小",
+          "抑菌效果弱导致边界对比度低",
+          "受邻近大型融合抑菌圈的光影干扰"
+        ],
+        "fn_severity": "minor"
+      },
+      "fp_analysis": {
+        "estimated_count": 0,
+        "likely_causes": [
+          "算法抗干扰能力强，有效排除了左下角强反光区及培养基纹理"
+        ],
+        "fp_severity": "minor"
+      },
+      "systemic_issue": false,
+      "recommendation": "建议引入针对微弱梯度的自适应阈值算法，或适当降低最小检测面积下限以捕捉微弱抑菌信号。",
+      "detail": "经详细比对，该算法在处理高密度、多融合的复杂平板时表现出极高的鲁棒性。漏检的1个目标（FN）极大概率为一个抑菌活性极弱的孔位（如第4行第2列或第6行第3列附近），其特征是直径微小且圈边界与培养基背景的灰度差异接近视觉阈值，易被忽略。误检数为0，说明算法成功规避了左下角的异常反光斑、右上角的物理划痕以及培养基固有的颗粒纹理。总体98.1%的检出率表明该模型性能优异，失败原因属于典型的边缘情况（Edge Case），而非系统性逻辑错误。",
+      "_image": "undated_halA_1_2_library_color_plate.jpg",
+      "_gt_count": 54,
+      "_pred_count": 53,
+      "_fp": 0,
+      "_fn": 1
+    }
+  ],
+  "summary": {
+    "total_images_reviewed": 11,
+    "images_with_failures": 9,
+    "images_perfect_match": 2
+  }
+}

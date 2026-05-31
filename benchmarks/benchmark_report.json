@@ -1,0 +1,155 @@
+{
+  "benchmark": "ZoneVision RF-DETR vs Manual Annotation",
+  "method": "YOLO26 Well Detection -> RF-DETR-Seg-Seg-Small Inhibition-Zone Segmentation -> 96-Well Plate Calibration -> Quantitative Phenotype Output",
+  "ground_truth": "Zone of inhibition.coco (Roboflow manual polygon annotation)",
+  "overall": {
+    "total_images": 12,
+    "annotated_images": 11,
+    "total_gt_instances": 233,
+    "total_pred_instances": 231,
+    "total_matched": 217,
+    "false_positives": 14,
+    "false_negatives": 16,
+    "precision": 0.9394,
+    "recall": 0.9313,
+    "f1_score": 0.9353,
+    "mean_iou": 0.8961,
+    "median_iou": 0.9086,
+    "avg_px_per_mm": 17.98,
+    "diameter_comparison": {
+      "n_matched_zones": 217,
+      "mean_gt_diameter_mm": 7.497,
+      "mean_pred_diameter_mm": 7.456,
+      "mean_error_mm": -0.041,
+      "mean_abs_error_mm": 0.226,
+      "max_abs_error_mm": 1.473,
+      "std_error_mm": 0.32,
+      "relative_error_pct": 3.01
+    },
+    "model": "RF-DETR-Seg-Small (100 epochs, coco_zone_384)",
+    "device": "NVIDIA RTX 4060 Laptop GPU",
+    "date": "2026-05-27 23:33"
+  },
+  "per_image": [
+    {
+      "image": "20200921_halA_21_22_24_color_plate.jpg",
+      "gt_count": 8,
+      "pred_count": 8,
+      "has_gt": true,
+      "matched": 8,
+      "mean_iou": 0.9564,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "image": "20200921_halA_21_22_24_color_plate_v2.jpg",
+      "gt_count": 0,
+      "pred_count": 8,
+      "has_gt": false,
+      "matched": 0,
+      "mean_iou": null,
+      "fp": 8,
+      "fn": 0
+    },
+    {
+      "image": "20200921_halA_26_28_15_color_plate.jpg",
+      "gt_count": 17,
+      "pred_count": 17,
+      "has_gt": true,
+      "matched": 17,
+      "mean_iou": 0.9169,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "image": "20201010_hal_alpha_16_19_12_color_plate.jpg",
+      "gt_count": 17,
+      "pred_count": 16,
+      "has_gt": true,
+      "matched": 16,
+      "mean_iou": 0.929,
+      "fp": 0,
+      "fn": 1
+    },
+    {
+      "image": "20201010_hal_alpha_21_22_24_color_plate.jpg",
+      "gt_count": 7,
+      "pred_count": 5,
+      "has_gt": true,
+      "matched": 5,
+      "mean_iou": 0.9151,
+      "fp": 0,
+      "fn": 2
+    },
+    {
+      "image": "20201010_hal_alpha_26_28_15_color_plate.jpg",
+      "gt_count": 45,
+      "pred_count": 44,
+      "has_gt": true,
+      "matched": 44,
+      "mean_iou": 0.8945,
+      "fp": 0,
+      "fn": 1
+    },
+    {
+      "image": "20201010_hal_alpha_2_3_14_color_plate.jpg",
+      "gt_count": 12,
+      "pred_count": 11,
+      "has_gt": true,
+      "matched": 11,
+      "mean_iou": 0.8624,
+      "fp": 0,
+      "fn": 1
+    },
+    {
+      "image": "20201010_hal_alpha_4_5_color_plate.jpg",
+      "gt_count": 17,
+      "pred_count": 16,
+      "has_gt": true,
+      "matched": 16,
+      "mean_iou": 0.8967,
+      "fp": 0,
+      "fn": 1
+    },
+    {
+      "image": "20201010_hal_alpha_6_9_25_color_plate.jpg",
+      "gt_count": 14,
+      "pred_count": 12,
+      "has_gt": true,
+      "matched": 12,
+      "mean_iou": 0.9145,
+      "fp": 0,
+      "fn": 2
+    },
+    {
+      "image": "20201011_hal_alpha_13_10_11_color_plate.jpg",
+      "gt_count": 22,
+      "pred_count": 19,
+      "has_gt": true,
+      "matched": 19,
+      "mean_iou": 0.8965,
+      "fp": 0,
+      "fn": 3
+    },
+    {
+      "image": "20201110_halA_single_transformant_activity_color_plate.jpg",
+      "gt_count": 20,
+      "pred_count": 22,
+      "has_gt": true,
+      "matched": 19,
+      "mean_iou": 0.915,
+      "fp": 3,
+      "fn": 1
+    },
+    {
+      "image": "undated_halA_1_2_library_color_plate.jpg",
+      "gt_count": 54,
+      "pred_count": 53,
+      "has_gt": true,
+      "matched": 50,
+      "mean_iou": 0.8638,
+      "fp": 3,
+      "fn": 4
+    }
+  ]
+}

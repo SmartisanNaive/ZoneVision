@@ -1,0 +1,13 @@
+image,gt_count,pred_count,matched,fp,fn,mean_iou
+20200921_halA_21_22_24_color_plate.jpg,8,8,8,0,0,0.9564
+20200921_halA_21_22_24_color_plate_v2.jpg,0,8,0,8,0,
+20200921_halA_26_28_15_color_plate.jpg,17,17,17,0,0,0.9169
+20201010_hal_alpha_16_19_12_color_plate.jpg,17,16,16,0,1,0.929
+20201010_hal_alpha_21_22_24_color_plate.jpg,7,5,5,0,2,0.9151
+20201010_hal_alpha_26_28_15_color_plate.jpg,45,44,44,0,1,0.8945
+20201010_hal_alpha_2_3_14_color_plate.jpg,12,11,11,0,1,0.8624
+20201010_hal_alpha_4_5_color_plate.jpg,17,16,16,0,1,0.8967
+20201010_hal_alpha_6_9_25_color_plate.jpg,14,12,12,0,2,0.9145
+20201011_hal_alpha_13_10_11_color_plate.jpg,22,19,19,0,3,0.8965
+20201110_halA_single_transformant_activity_color_plate.jpg,20,22,19,3,1,0.915
+undated_halA_1_2_library_color_plate.jpg,54,53,50,3,4,0.8638

@@ -1,0 +1,12 @@
+image,gt_count,pred_count,boundary_quality,position_agreement,missed_zones_estimate,over_segmented_estimate,consistency_score,overall_verdict,detail
+20200921_halA_21_22_24_color_plate.jpg,8,8,good,good,0,0,5,consistent,算法准确识别了全部8个抑菌圈，分割边界与实际边缘高度吻合，无漏检或过分割现象。
+20200921_halA_26_28_15_color_plate.jpg,17,17,good,good,0,0,5,consistent,算法精准检测出全部17个抑菌圈，分割位置与实际可见区域完全对应，边界贴合度高，无漏检或误检。
+20201010_hal_alpha_16_19_12_color_plate.jpg,17,16,good,good,1,0,4,minor_issues,算法分割边界总体贴合度较高，位置定位准确，但存在一处明显漏检（右下角较大的抑菌圈未检出），导致检测总数少于人工标注。
+20201010_hal_alpha_21_22_24_color_plate.jpg,7,5,good,good,2,0,3,minor_issues,算法准确识别并分割了5个主要抑菌圈，边界贴合度较好，但存在2个明显漏检（位于平板左侧及底部边缘的弱抑菌圈），整体一致性中等。
+20201010_hal_alpha_26_28_15_color_plate.jpg,45,44,good,good,1,0,4,minor_issues,算法检测结果与人工标注高度一致，分割边界清晰且贴合实际边缘，仅存在个别微量漏检。
+20201010_hal_alpha_2_3_14_color_plate.jpg,12,11,good,good,1,0,4,minor_issues,算法成功检测了大部分抑菌圈且边界贴合度较好，但明显漏检了右下角的一个大型抑菌圈。
+20201010_hal_alpha_4_5_color_plate.jpg,17,16,good,good,1,0,4,minor_issues,算法分割精度较高，边界贴合度好，但存在1个漏检（人工标注17个而算法仅检出16个），可能是由于个别抑菌圈对比度较低未被识别。
+20201010_hal_alpha_6_9_25_color_plate.jpg,14,12,good,good,2,0,4,minor_issues,算法成功检测了大部分抑菌圈且边界贴合度较好，但明显遗漏了左侧边缘的大面积抑菌圈及右下角的抑菌圈。
+20201011_hal_alpha_13_10_11_color_plate.jpg,22,19,moderate,good,3,0,3,minor_issues,算法准确检测了大部分明显的抑菌圈，位置对应良好，但存在约3个微弱区域的漏检，且部分边界略有松弛。
+20201110_halA_single_transformant_activity_color_plate.jpg,20,22,good,good,0,2,4,minor_issues,算法分割位置准确，边界贴合度高，但相比人工标注多检出2个微弱抑菌圈，属于轻微过分割。
+undated_halA_1_2_library_color_plate.jpg,54,53,good,good,1,0,4,minor_issues,算法检测结果与人工标注高度一致，边界定位精准且能较好处理融合区域，仅存在个别微弱抑菌圈的漏检。
