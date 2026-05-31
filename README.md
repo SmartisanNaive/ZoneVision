@@ -153,7 +153,7 @@ If you use ZoneVision in your research, please cite:
 ```bibtex
 @article{zonevision2026,
   title={Automated Inhibition-Zone Detection for Antibiotic Susceptibility Testing Using Cascade Vision},
-  author={Your Name},
+  author={Baice},
   journal={Chinese Journal of Biotechnology},
   year={2026}
 }
