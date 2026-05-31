@@ -39,18 +39,21 @@ pip install -e .
 
 Weights are hosted on [HuggingFace](https://huggingface.co/logichenry/ZoneVision):
 
+| File | Size | Description |
+|------|------|-------------|
+| `rfdetr_seg_small_best.pth` | 128 MB | RF-DETR-Seg-Small best checkpoint (F1=0.952) |
+| `sam3.pt` | 3.2 GB | SAM3 mask refinement model |
+| `yolo26n.pt` | 5.3 MB | YOLO26n pretrained backbone (plate detection) |
+| `yolo26n-seg.pt` | 6.4 MB | YOLO26n-seg instance segmentation model |
+
 ```bash
-# Option 1: huggingface-cli
+# Option 1: download all weights
 hf download logichenry/ZoneVision --local-dir weights/
 
-# Option 2: manual download
-mkdir -p weights
-# Download from https://huggingface.co/logichenry/ZoneVision
-# Place files in weights/:
-#   weights/sam3.pt
-#   weights/rfdetr_seg_small_best.pth
-#   weights/yolo26n.pt
-#   weights/yolo26n-seg.pt
+# Option 2: download specific file
+hf download logichenry/ZoneVision rfdetr_seg_small_best.pth --local-dir weights/
+
+# Option 3: manual download from https://huggingface.co/logichenry/ZoneVision
 ```
 
 ## Quick Start
