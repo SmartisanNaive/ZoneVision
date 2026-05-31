@@ -30,22 +30,22 @@ Evaluated on 11 plate photos with 233 manually annotated zones.
 ## Installation
 
 ```bash
-git clone https://github.com/yourname/zonevision.git
+git clone https://github.com/SmartisanNaive/zonevision.git
 cd zonevision
 pip install -e .
 ```
 
 ### Download model weights
 
-Weights are hosted on [HuggingFace](https://huggingface.co/yourname/zonevision):
+Weights are hosted on [HuggingFace](https://huggingface.co/SmartisanNaive/zonevision):
 
 ```bash
 # Option 1: huggingface-cli
-huggingface-cli download yourname/zonevision --local-dir weights/
+huggingface-cli download SmartisanNaive/zonevision --local-dir weights/
 
 # Option 2: manual download
 mkdir -p weights
-# Download from https://huggingface.co/yourname/zonevision
+# Download from https://huggingface.co/SmartisanNaive/zonevision
 # Place files in weights/:
 #   weights/sam3.pt
 #   weights/rfdetr_seg_small_best.pth
