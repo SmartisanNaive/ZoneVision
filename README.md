@@ -37,15 +37,15 @@ pip install -e .
 
 ### Download model weights
 
-Weights are hosted on [HuggingFace](https://huggingface.co/SmartisanNaive/zonevision):
+Weights are hosted on [HuggingFace](https://huggingface.co/logichenry/ZoneVision):
 
 ```bash
 # Option 1: huggingface-cli
-huggingface-cli download SmartisanNaive/zonevision --local-dir weights/
+hf download logichenry/ZoneVision --local-dir weights/
 
 # Option 2: manual download
 mkdir -p weights
-# Download from https://huggingface.co/SmartisanNaive/zonevision
+# Download from https://huggingface.co/logichenry/ZoneVision
 # Place files in weights/:
 #   weights/sam3.pt
 #   weights/rfdetr_seg_small_best.pth
